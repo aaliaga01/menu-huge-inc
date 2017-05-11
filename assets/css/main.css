@@ -30,3 +30,13 @@ nav {
 	background-repeat: no-repeat;
 	background-image: url(../img/icon/logo.png);
 }
+
+.menu{
+	top: 0;
+	right: 0;
+	height: 4px;
+	width: 24px;
+	text-align: right;
+	margin: 2rem 2rem;
+	background:all 0.3s;
+}
