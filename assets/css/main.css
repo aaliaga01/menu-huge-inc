@@ -10,7 +10,6 @@ nav {
 	padding-top: 0px;
 	background: none;
 	transition: all 0.6s cubic-bezier(0.7,0.01,0.3,1); 
-	/*background-color: red;*/
 }
 
 .logo,
@@ -59,4 +58,48 @@ nav {
 
 .menu:after{
 	top: 8px;
+}
+
+#toggle{
+	width: 104px;
+	height: 74px;
+	padding: 45px 40px;
+	z-index: 1000;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#toggle:hover .menu:before{
+	top:-9px;
+}
+
+#toggle:hover .menu:after{
+	top: 9px;
+}
+
+.open .menu{
+	background: none !important;
+	height: 4px;
+	width: 24px;
+}
+
+/*.open{
+	background:#ec008c; 
+}*/
+
+.open .menu:after{
+	top: 0 !important;
+	background: #fff !important;
+	transform: rotate(45deg);
+
+}
+
+.open .menu:before{
+	top: 0 !important;
+	background: #fff !important;
+	transform: rotate(-45deg);
 }
