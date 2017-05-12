@@ -62,7 +62,7 @@ nav {
 #toggle{
 	width: 88px;
 	height: 64px;
-	/*padding: 45px 40px;*/
+	padding: 45px 40px;
 	z-index: 1000;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
@@ -96,8 +96,10 @@ nav {
 	background: #fff !important;
 	transform: rotate(-45deg);
 }
-/*
-nav .nav-background{
+
+
+
+nav.nav-background{
 	top: 0px;
 	opacity: 0;
 	width: 100%;
@@ -107,12 +109,14 @@ nav .nav-background{
 	background: none;
 	position: absolute;
 	transition: background-color 0.6s cubic-bezier(0.7, 0.01, 0.3, 1);
+
 }
 
 nav.open .nav-background{
 	opacity: 1;
 	background-color: rgba(217,40,130,0.9) !important;
 	transition: background-color 0.6s cubic-bezier(0.7, 0.01, 0.3, 1);
+
 }
 
 nav.open {
@@ -147,11 +151,13 @@ nav ul li a{
 	display: block;
 	padding: 8px 0 0;
 	letter-spacing: -0.06em;
+
 }
 
 nav ul li a:hover{
 	color:#ec008c;
 	background-color: white;
+
 }
 
 nav.open ul{
@@ -160,6 +166,7 @@ nav.open ul{
 	margin-top: 0;
 	visibility: visible;
 	transform: perspective(600px) rotateX(0deg);
+
 }
 
 nav.open ul li {
@@ -191,4 +198,4 @@ nav.solid #logo .logo{
 
 .overflow-hidden{
 	overflow: hidden;
-}*/
+}
